@@ -53,16 +53,23 @@ As soon as you make a commit, you can open a pull request and start a discussion
 You can even open pull requests in your own repository and merge them yourself. It’s a great way to learn the GitHub flow before working on larger projects.
 
 Steps:-
-1.	Click the  Pull Request tab, then from the Pull Request page, click the green New pull request button.
+
+1.Click the  Pull Request tab, then from the Pull Request page, click the green New pull request button.
 ![](https://guides.github.com/activities/hello-world/pr-tab.gif)
-2. In the Example Comparisons box, select the branch you made, readme-edits, to compare with main (the original).	
+
+2.In the Example Comparisons box, select the branch you made, readme-edits, to compare with main (the original).	
 ![](https://guides.github.com/activities/hello-world/pick-branch.png)
+
 3.Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit.
 ![](https://guides.github.com/activities/hello-world/diff.png)
-4.	When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button.
-![4.	Give your pull request a title and write a brief description of your changes.](https://guides.github.com/activities/hello-world/pr-form.png)
-5.	Give your pull request a title and write a brief description of your changes.
-6.	When you’re done with your message, click Create pull request!
+
+4.When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button.
+![](https://guides.github.com/activities/hello-world/create-pr.png)
+
+5.Give your pull request a title and write a brief description of your changes.
+![](https://guides.github.com/activities/hello-world/pr-form.png)
+
+When you’re done with your message, click Create pull request!
 
 Step 5. Merge your Pull Request
 
