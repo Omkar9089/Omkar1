@@ -1,0 +1,180 @@
+<h1> Introduction to GitHub Commands</h1>
+<p>
+GitHub is very much popular web-based application in current industry for hosting variety services targeting version control using GIT commands. It offers various distributed version controlling as well as source code management properly.
+</p>
+<p>1. git config </p>
+<p>2. git init</p>
+<p>3. git clone</p>
+<p>4. git add</p>
+<p>5. git commit</p>
+<p>6. git diff</p>
+<p>7. git reset</p>
+<p>8. git status</p>
+<p>9. git rm</p>
+<p>10. git log</p>
+<p>11. git show</p>
+<p>12. git tag</p>
+<p>13. git branch</p>
+<p>14. git checkout</p>
+<p>15. git merge</p>
+<p>16. git remote</p>
+<p>17. git push</p>
+<p>18. git pull</p>
+<p>19. git stash</p>
+
+<h3> git config</h3>
+
+Usage: git config –global user.name “[name]” <br> 
+Usage: git config –global user.email “[email address]”  <br>
+This command sets the author name and email address respectively to be used with your commits.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/1-9.png">
+
+<h3>git init</h3>
+Usage: git init [repository name]<br>
+This command is used to start a new repository.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/2-6.png">
+
+<h3> git clone</h3>
+Usage: git clone [url]  <br>
+This command is used to obtain a repository from an existing URL.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/4-4.png">
+
+<h3>git add</h3>
+Usage: git add [file]  <br>
+This command adds a file to the staging area.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/5-4.png">
+
+<br>
+Usage: git add  
+This command adds one or more to the staging area.
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/6-3.png">
+
+<h3>git diff</h3>
+Usage: git diff  <br>
+This command shows the file differences which are not yet staged.<br>
+
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/9-2.png">
+<br>
+Usage: git diff –staged <br>
+This command shows the differences between the files in the staging area and the latest version present.<br>
+
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/10-2.png">
+<br>
+Usage: git diff [first branch] [second branch]  <br>
+This command shows the differences between the two branches mentioned.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/43.png">
+
+<h3>git reset</h3>
+Usage: git reset [file]  <br>
+This command unstages the file, but it preserves the file contents.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/11-1.png">
+<br>
+Usage: git reset [commit]  <br>
+This command undoes all the commits after the specified commit and preserves the changes locally.<br>
+
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/14-1.png">
+<br>
+Usage: git reset –hard [commit]  This command discards all history and goes back to the specified commit.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/13-1.png">
+
+<h3>git status</h3>
+Usage: git status  <br>
+This command lists all the files that have to be committed.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/15-1.png">
+
+<h3>git rm</h3>
+Usage: git rm [file]  <br>
+This command deletes the file from your working directory and stages the deletion.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/16-2.png">
+
+<h3>git log</h3>
+Usage: git log  <br>
+This command is used to list the version history for the current branch.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/18.png">
+
+Usage: git log –follow[file]  <br>
+This command lists version history for a file, including the renaming of files also.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/19.png">
+
+<h3>git show</h3>
+Usage: git show [commit]  <br>
+This command shows the metadata and content changes of the specified commit.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/20.png">
+
+<h3>git tag</h3>
+Usage: git tag [commitID]  <br>
+This command is used to giv<br>
+e tags to the specified commit.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/22.png">
+
+<h3>git branch</h3>
+Usage: git branch  <br>
+This command lists all the local branches in the current repository.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/23.png">
+<br>
+Usage: git branch [branch name]  <br>
+This command creates a new branch.<br>
+
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/24.png">
+<br>
+Usage: git branch -d [branch name]  <br>
+This command deletes the feature branch.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/25.png">
+
+<h3>git checkout</h3>
+Usage: git checkout [branch name]  <br>
+This command is used to switch from one branch to another.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/27.png">
+<br>
+Usage: git checkout -b [branch name] <br> 
+This command creates a new branch and also switches to it.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/28.png">
+
+<h3>git merge</h3>
+Usage: git merge [branch name]  <br>
+This command merges the specified branch’s history into the current branch.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/31-1.png">
+
+<h3>git remote</h3>
+Usage: git remote add [variable name] [Remote Server Link] <br> 
+This command is used to connect your local repository to the remote server.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/32.png">
+
+<h3>git push</h3>
+Usage: git push [variable name] master  <br>
+This command sends the committed changes of master branch to your remote repository.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/33.png">
+<br>
+Usage: git push [variable name] [branch]  <br>
+This command sends the branch commits to your remote repository.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/34.png">
+<br>
+Usage: git push –all [variable name] <br> 
+This command pushes all branches to your remote repository.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/36.png">
+<br>
+Usage: git push [variable name] :[branch name]  <br>
+This command deletes a branch on your remote repository.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/37.png">
+
+<h3> git pull</h3>
+Usage: git pull [Repository Link]  <br>
+This command fetches and merges changes on the remote server to your working directory.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/38.png">
+
+<h3>git stash</h3>
+Usage: git stash save  <br>
+This command temporarily stores all the modified tracked files.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/39.png">
+<br>
+Usage: git stash pop  <br>
+This command restores the most recently stashed files.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/40.png">
+<br>
+Usage: git stash list  <br>
+This command lists all stashed changesets.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/44.png">
+<br>
+Usage: git stash drop  <br>
+This command discards the most recently stashed changeset.<br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/42.png">
